@@ -5,7 +5,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 var box,box2,box3,world;
 
-function preload()
+function setup()
 {
 	//trashCan=loadImage("sprites/dustbingreen.png");
 	createCanvas(800, 700);
